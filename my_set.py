@@ -1,0 +1,6 @@
+miveh = set(["apple", "banana", "orange", "gripfrott", "khiar"])
+sabzijat = set (["khiar", "ghogeh", "bademjoon"])
+sabzijat.add("piaz")
+miveh.add("angoor")
+print(sabzijat.union(miveh))
+print(miveh.intersection(sabzijat))
